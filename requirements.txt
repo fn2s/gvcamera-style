@@ -1,0 +1,6 @@
+numpy
+mxnet
+PIL
+opencv-python
+tkinter
+sk-video
