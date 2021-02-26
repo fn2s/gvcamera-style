@@ -1,12 +1,12 @@
 # gvcamera-style
 Video neural style transfer filter with virtual camera output  &amp; GUI control panel
 
-gvcamera-style.py application allows you to stylize web-camera video stream according to one of 21 styles and output stylized video stream to virtual camera device (and optionally, to mp4 file). Virtual camera can be used in Scype or other applications under Linux. So it provides some privacy and a lot of fun)) 
+gvcamera-style.py application allows you to stylize web-camera video stream according to one of 21 styles and to output stylized video stream to virtual camera device (and optionally, to mp4 file). Virtual camera can be used in Scype or other applications under Linux. So it provides some privacy and a lot of fun)) 
 
 Stylization based on neural network and pretrained model from [MXNet-Gluon-Style-Transfer](https://github.com/StacyYang/MXNet-Gluon-Style-Transfer).
 Inference performed via MXNet Gluon framework on CPU and CUDA GPU.
 
-0. Virtual camera should be created before gvcamera style run:
+0. Virtual camera should be created before gvcamera-style run:
 	```bash
 	sudo modprobe v4l2loopback
 	```
@@ -21,7 +21,7 @@ Inference performed via MXNet Gluon framework on CPU and CUDA GPU.
 	python gvcamera-style.py -d 0 -vd 2 --record --cuda
 	```
 You can select one of 21 target styles via top row GUI buttons or select auto changing thru all styles with period set by slider.
-One 640x480 frame inference with Nvidia 1050 GPU acceleration takes less then a second. So calculed GPU power required for your target fps accordingly.
+One 640x480 frame inference with Nvidia 1050 GPU acceleration takes less then a second. So calcule GPU power required for your target fps accordingly.
 
 3. Optionally read help screen:
 	```bash
