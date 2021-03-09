@@ -6,6 +6,15 @@ gvcamera-style.py application allows you to stylize web-camera video stream acco
 Stylization based on neural network and pretrained model from [MXNet-Gluon-Style-Transfer](https://github.com/StacyYang/MXNet-Gluon-Style-Transfer).
 Inference performed via MXNet Gluon framework on CPU and CUDA GPU.
 
+<img src ="images/1.png" width="664px" />
+<img src ="images/2.png" width="664px" />
+<img src ="images/3.png" width="664px" />
+<img src ="images/4.png" width="664px" />
+<img src ="images/5.png" width="664px" />
+<img src ="images/6.png" width="664px" />
+<img src ="images/7.png" width="664px" />
+<img src ="images/8.png" width="664px" />
+
 0. Virtual camera should be created before gvcamera-style run:
 	```bash
 	sudo modprobe v4l2loopback
@@ -32,4 +41,4 @@ One 640x480 frame inference with Nvidia 1050 GPU acceleration takes less then a 
 	```bash
 	python web-cam.py -d 2
 	```
-This project was created  and tested under Linux. Some efforts reqired to port it to Windows, at least regarding proper v4l2loopback substitution.
+This project was created  and tested under Linux. Some efforts required to port it to Windows, at least regarding proper v4l2loopback substitution.
